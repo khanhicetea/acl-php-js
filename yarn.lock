@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+acljs@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/acljs/-/acljs-1.0.1.tgz#bba4441e6d30a6cbe58927799e63d389379217ca"
+  integrity sha1-u6REHm0wpsvliSd5nmPTiTeSF8o=
+
 argparse@^1.0.7:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
@@ -26,11 +31,6 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
-
-esprima@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
-  integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -61,19 +61,6 @@ inherits@2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
-
-js-acl@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/js-acl/-/js-acl-1.0.0.tgz#fe051364d8ec6ed6af197271412c2b3676dea859"
-  integrity sha512-+f6ClfK1cIY1OhpMlv4BKnDARwkRaJMYnJlWPifDw1pkAo7sRd1aGBkBo9F75env2ohKENsNk2ymvcZ+bskIwA==
-
-js-yaml@^3.12.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
-  integrity sha512-PIt2cnwmPfL4hKNwqeiuz4bKfnzHTBv6HyVgjahA6mPLwPDzjDWrplJBMjHUFxku/N3FlmrbyPclad+I+4mJ3A==
-  dependencies:
-    argparse "^1.0.7"
-    esprima "^4.0.0"
 
 minimatch@^3.0.4:
   version "3.0.4"
