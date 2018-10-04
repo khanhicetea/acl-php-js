@@ -1,0 +1,35 @@
+# These are resources
+resources:
+  ecommerce:
+    products:
+    orders:
+  cms:
+    posts:
+    pages:
+  settings:
+
+# These roles
+roles:
+  guest:
+  user: ['guest']
+  gold_member: ['user']
+  normal: ['user']
+  staff:
+  editor: ['staff']
+  sale: ['staff']
+  manager: ['sale']
+  khanh: ['editor', 'manager']
+  admin:
+
+# These are rules
+rules:
+  - ['allow', 'guest', ['products', 'posts'], ['read']]
+  - ['allow', 'user', ['products', 'posts'], ['comment']]
+  - ['allow', 'gold_member', ['products', 'posts'], ['vote']]
+  - ['allow', 'editor', ['pages', 'posts'], ['list', 'create', 'edit', 'delete']]
+  - ['allow', 'sale', ['products'], ['list']]
+  - ['allow', 'sale', ['orders'], ['list', 'details', 'edit', 'print']]
+  - ['allow', 'manager', ['orders'], ['delete']]
+  - ['deny', 'khanh', ['orders'], ['delete']]
+  - ['allow', 'khanh', 'settings']
+  - ['allow', 'admin']
