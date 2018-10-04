@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "js-acl": "^1.0.0",
+    "yamljs": "^0.3.0"
+  }
+}
