@@ -1,0 +1,6 @@
+{
+    "require": {
+        "zendframework/zend-permissions-acl": "^2.7",
+        "symfony/yaml": "^4.1"
+    }
+}
